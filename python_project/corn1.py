@@ -25,3 +25,4 @@ text = '\n'.join(네이버_실검())
 
 bot = telegram.Bot(token = TOKEN)
 bot.send_message(chat_id=chat_id, text=text)
+#크론을 추가함.
